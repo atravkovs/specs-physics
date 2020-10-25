@@ -24,13 +24,13 @@ shrinkwraprs = "0.2"
 
 specs = { version = "0.16", default-features = false }
 specs-hierarchy = "0.5"
-nalgebra = "0.19"
+nalgebra = "0.22"
 
-ncollide2d = { version = "0.21", optional = true }
-ncollide3d = { version = "0.21", optional = true }
+ncollide2d = { version = "0.24", optional = true }
+ncollide3d = { version = "0.24", optional = true }
 
-nphysics2d = { version = "0.13", optional = true }
-nphysics3d = { version = "0.13", optional = true }
+nphysics2d = { version = "0.17", optional = true }
+nphysics3d = { version = "0.17", optional = true }
 
 [dependencies.amethyst]
 git = "https://github.com/amethyst/amethyst"
